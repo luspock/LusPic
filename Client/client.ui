@@ -6,41 +6,134 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>611</width>
+    <height>576</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>TextLabel</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>Filename</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
+   <widget class="QPlainTextEdit" name="pteFilename">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="ptePublicLink">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>470</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>76</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Public Link</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCopy">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>480</y>
+      <width>136</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Copy to Clipboard</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>591</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>63</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filename</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>20</y>
+      <width>158</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnSelect">
+       <property name="text">
+        <string>Select</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnUpload">
+       <property name="text">
+        <string>Upload</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>611</width>
      <height>21</height>
     </rect>
    </property>
