@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'Client.ui',
 # licensing of 'Client.ui' applies.
 #
-# Created: Thu Jan 17 16:08:00 2019
+# Created: Thu Jan 17 21:38:18 2019
 #      by: pyside2-uic  running on PySide2 5.12.0
 #
 # WARNING! All changes made in this file will be lost!

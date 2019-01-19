@@ -5,6 +5,10 @@ Online image storage for [personal blog](https://blog.luspock.com)
 * 添加Qt界面
 * 可以修改上传的Url地址，提高安全
 
+## ToDo
+
+- [ ] 解决图片名带中文服务器报错的问题
+
 ## 安装
 分别为服务器和客户端建立python虚拟环境，安装Server和Client下的requirements.txt
 ## 配置
@@ -14,7 +18,8 @@ Online image storage for [personal blog](https://blog.luspock.com)
 1. 修改db_init.py 中用户名及密码
 2. 运行db_init.py 生成数据库文件
 3. 修改server.py 中SECRET_KEY和UPLOAD_URL
-4. 运行server.py （可能需要nginx与uwsgi或者其他工具）
+4. 在app下新建static文件夹
+5. 运行server.py （可能需要nginx与uwsgi或者其他工具）
 
 ### 客户端
 
@@ -26,7 +31,6 @@ Online image storage for [personal blog](https://blog.luspock.com)
 >PyInstaller client.py
 
 在dist目录下找到.exe并运行。
-
 
 ## 参考
 [MdPic](https://github.com/alinuxsa/MdPic)
